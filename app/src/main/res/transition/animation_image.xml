@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:duration="400"
+    android:transitionOrdering="together"
+    tools:targetApi="kitkat">
+    <changeBounds/>
+    <changeImageTransform/>
+    <fade
+        android:fadingMode="fade_in_out"
+        android:startDelay="200">
+        <targets>
+            <target android:targetId="@+id/transition_image"/>
+        </targets>
+    </fade>
+
+</transitionSet>
